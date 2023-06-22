@@ -27,7 +27,7 @@ export MM_ADMIN_PASSWORD=$user_password
 export MM_SERVICESETTINGS_SITEURL=http://localhost:8065
 export MM_SERVICESETTINGS_ENABLEDEVELOPER=true
 
-docker exec mattermost mmctl --local plugins install-url https://github.com/mattermost/mattermost-plugin-ai/releases/download/v$plugin_version/mattermost-ai-$plugin_version.tar.gz
+docker exec mattermost mmctl --local plugin install-url https://github.com/mattermost/mattermost-plugin-ai/releases/download/v$plugin_version/mattermost-ai-$plugin_version.tar.gz
 
 # Configure plugin
 docker exec mattermost bash -c "echo '{\"PluginSettings\":{\"Plugins\":{\"mattermost-ai\":{\"openaicompatibleurl\":\"http://localai:8080\", \"openaicompatiblemodel\":\"ggml-gpt4all-j\",\"llmgenerator\":\"openaicompatible\"}}}}' | mmctl --local config patch /dev/stdin"
