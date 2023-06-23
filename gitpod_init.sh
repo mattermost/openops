@@ -41,7 +41,7 @@ if [ "$backend" == 'localai' ]; then
 fi
 
 if [ "$backend" == 'openai' ]; then
-	cat config_patch_opanai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
+	cat config_patch_openai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
 fi
 
 echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)\n\n        username:  $user_name\n        password:  $user_password\n\n  THEN CONFIGURE THE PLUGIN & ENJOY!\n\n"
