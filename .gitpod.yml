@@ -1,0 +1,9 @@
+tasks:
+  - name: download_model
+    command: "bash ./download_model.sh"
+  - name: mattermost
+    command: "bash ./gitpod_init.sh"
+ports:
+  - name: mattermost
+    port: 8065
+    onOpen: open-browser

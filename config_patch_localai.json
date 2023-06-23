@@ -1,0 +1,11 @@
+{
+  "PluginSettings": {
+    "Plugins": {
+      "mattermost-ai": {
+        "openaicompatibleurl": "http://localai:8080",
+        "openaicompatiblemodel": "gpt4all-j",
+        "llmgenerator": "openaicompatible"
+      }
+    }
+  }
+}
