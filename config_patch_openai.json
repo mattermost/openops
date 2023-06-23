@@ -4,7 +4,7 @@
       "mattermost-ai": {
         "llmgenerator": "openai",
 		"openaidefaultmodel": "gpt-3.5-turbo",
-		"opeanaiapikey": "test"
+		"opeanaiapikey": ""
       }
     }
   }
