@@ -36,11 +36,11 @@ docker exec mattermost mmctl --local plugin install-url https://github.com/matte
 docker exec mattermost mmctl --local plugin enable mattermost-ai
 
 # Configure plugin
-if [ $(backend) = 'localai' ]; then
+if [ "$backend" == 'localai' ]; then
 	cat config_patch_localai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
 fi
 
-if [ $(backend) = 'openai' ]; then
+if [ "$backend" == 'openai' ]; then
 	cat config_patch_opanai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
 fi
 
