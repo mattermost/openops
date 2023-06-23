@@ -12,9 +12,9 @@ user_password="$(openssl rand -base64 14)"
 echo "Starting Mattermost and localai for demo..."
 
 if [ "$backend" == 'localai' ]; then
-	docker-compose up -f docker-compose.yml -f docker-compose.local.yml -d 
+	docker-compose -f docker-compose.yml -f docker-compose.local.yml up -d 
 else
-	docker-compose up -f docker-compose.yml -d 
+	docker-compose -f docker-compose.yml up -d 
 fi
 
 echo "Mattermost is starting. Waiting 35 seconds."
