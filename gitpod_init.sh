@@ -36,6 +36,12 @@ docker exec mattermost mmctl --local plugin install-url https://github.com/matte
 docker exec mattermost mmctl --local plugin enable mattermost-ai
 
 # Configure plugin
-docker exec mattermost bash -c "echo '{\"PluginSettings\":{\"Plugins\":{\"mattermost-ai\":{\"openaicompatibleurl\":\"http://localai:8080\", \"openaicompatiblemodel\":\"ggml-gpt4all-j\",\"llmgenerator\":\"openaicompatible\"}}}}' | mmctl --local config patch /dev/stdin"
+if [ $(backend) = 'localai' ]; then
+	cat config_patch_localai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
+fi
+
+if [ $(backend) = 'openai' ]; then
+	cat config_patch_opanai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
+fi
 
 echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)\n\n        username:  $user_name\n        password:  $user_password\n\n  THEN CONFIGURE THE PLUGIN & ENJOY!\n\n"
