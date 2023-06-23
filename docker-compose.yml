@@ -23,6 +23,9 @@ services:
       MM_SERVICESETTINGS_ENABLELOCALMODE: "true"
       MM_FILESETTINGS_MAXFILESIZE: 123524266
       MM_PASSWORDSETTINGS_MINIMUMLENGTH: 5
+      MM_SERVICESETTINGS_ENABLETUTORIAL: "false"
+      MM_TEAMSETTINGS_TEAMMATENAMEDISPLAY: "full_name"
+      MM_SERVICESETTINGS_ENABLEONBOARDINGFLOW: "false"
   db:
     image: "postgres"
     restart: "unless-stopped"
@@ -30,15 +33,3 @@ services:
       POSTGRES_PASSWORD: "mostest"
       POSTGRES_USER: "mmuser"
       POSTGRES_DB: "mattermost_test"
-  localai:
-    image: quay.io/go-skynet/local-ai:v0.19.0
-    ports:
-      - 8080:8080
-    volumes:
-      - ./models:/models:cached
-    environment:
-      MODELS_PATH: "/models"
-      REBUILD: "false"
-      THREADS: 4
-      DEBUG: true
-    command: ["/usr/bin/local-ai"]

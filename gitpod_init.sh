@@ -11,7 +11,11 @@ user_password="$(openssl rand -base64 14)"
 
 echo "Starting Mattermost and localai for demo..."
 
-docker-compose up -d
+if [ "$backend" == 'localai' ]; then
+	docker-compose up -f docker-compose.yml -f docker-compose.local.yml -d 
+else
+	docker-compose up -f docker-compose.yml -d 
+fi
 
 echo "Mattermost is starting. Waiting 35 seconds."
 sleep 35
@@ -44,4 +48,9 @@ if [ "$backend" == 'openai' ]; then
 	cat config_patch_openai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
 fi
 
-echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)\n\n        username:  $user_name\n        password:  $user_password\n\n  THEN CONFIGURE THE PLUGIN & ENJOY!\n\n"
+echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)/$team_name/messages/@ai\n\n        username:  $user_name\n        password:  $user_password\n\n"
+
+if [ "$backend" == 'openai' ]; then
+	echo -e "\n   NOW RUN ./configure_openai.sh sk-<your openai key> OR CONFIGURE THE PLUGIN THOUGH THE SYSTEM CONSOLE.\n\n"
+fi
+
