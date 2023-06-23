@@ -9,11 +9,14 @@ channel_display_name="AI"
 user_name="root"
 user_password="$(openssl rand -base64 14)"
 
-echo -e "Setting up Mattermost with ...\n Team name: $team_name\n Team display name: $team_display_name\n Channel name: $channel_name\n Channel display name: $channel_display_name"
+echo "Starting Mattermost and localai for demo..."
 
-echo "Initializing Mattermost for demo. This will take about 30 seconds..."
+docker-compose up -d
 
+echo "Mattermost is starting. Waiting 35 seconds."
 sleep 35
+
+echo -e "Setting up Mattermost with ...\n Team name: $team_name\n Team display name: $team_display_name\n Channel name: $channel_name\n Channel display name: $channel_display_name"
 
 docker exec mattermost mmctl --local team create --display-name $team_display_name --name $team_name
 docker exec mattermost mmctl --local channel create --team $team_name --display-name "$channel_display_name" --name $channel_name
@@ -27,7 +30,10 @@ export MM_ADMIN_PASSWORD=$user_password
 export MM_SERVICESETTINGS_SITEURL=http://localhost:8065
 export MM_SERVICESETTINGS_ENABLEDEVELOPER=true
 
+echo "Installing plugin."
+
 docker exec mattermost mmctl --local plugin install-url https://github.com/mattermost/mattermost-plugin-ai/releases/download/v$plugin_version/mattermost-ai-$plugin_version.tar.gz
+docker exec mattermost mmctl --local plugin enable mattermost-ai
 
 # Configure plugin
 docker exec mattermost bash -c "echo '{\"PluginSettings\":{\"Plugins\":{\"mattermost-ai\":{\"openaicompatibleurl\":\"http://localai:8080\", \"openaicompatiblemodel\":\"ggml-gpt4all-j\",\"llmgenerator\":\"openaicompatible\"}}}}' | mmctl --local config patch /dev/stdin"

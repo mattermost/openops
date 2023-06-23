@@ -39,4 +39,6 @@ services:
     environment:
       MODELS_PATH: "/models"
       REBUILD: "false"
+      THREADS: 4
+      DEBUG: true
     command: ["/usr/bin/local-ai"]
