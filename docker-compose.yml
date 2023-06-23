@@ -26,6 +26,7 @@ services:
       MM_SERVICESETTINGS_ENABLETUTORIAL: "false"
       MM_TEAMSETTINGS_TEAMMATENAMEDISPLAY: "full_name"
       MM_SERVICESETTINGS_ENABLEONBOARDINGFLOW: "false"
+      MM_NATIVEAPPSETTINGS_APPDOWNLOADLINK: ""
   db:
     image: "postgres"
     restart: "unless-stopped"
