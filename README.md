@@ -1,4 +1,88 @@
+
 # OpenOps
+
+OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate responsible evaluation of generative AI models applied to real world workflows. OpenOps:
+
+* Enables AI exploration with full data control in a multi-user pilot.
+* Supports broad ecosystem of AI models from OpenAI and Microsoft to open source LLMs from Hugging Face.
+* Speeds development of custom security, compliance and data custody policy from early evaluation to future scale.
+
+Unliked closed source, vendor-controlled environments for integration private conversations, workflow and generative AI, OpenOps provides an open source, customer-controlled platform for AI exploration with full data data control.
+
+| Demo | Use Case Example |
+|:---|:---|
+| [![Watch the video](https://github-production-user-asset-6210df.s3.amazonaws.com/177788/244097585-1dbe51fa-fb6c-411f-9e18-4e2c99d4c2f2.png)](https://community.mattermost.com/files/k4gdq47njfg6uxuzr5toq5eb4a/public?h=_Lu6LPIGENzL15vfKYSw3AId2yKSGAGySMH9nCRBr24) | **Discussion Summarization** - Within the OpenOps sandbox a private discussion can be analyzed and summarized by an AI bot and backend to help end users more quickly and easily consume information without any data leaving the self-contained system.<br><br>See [usages section](#usage) for more examples below. |
+
+## Why OpenOps?
+
+Everyone’s in a race to deploy generative AI solutions, but need to do so in a responsible and safe way. OpenOps lets you run powerful models in a safe sandbox to establish the right safety protocols before rolling out. Here's an example of an evaluation, implementation and iterative rollout process: 
+
+- **Phase 1:** Set up the OpenOps collaboration sandbox, which is a self-hosted service providing multi-user chat and integration with GenAI. 
+
+- **Phase 2:** Evaluate different GenAI providers, from public SaaS services like OpenAI to fully local open source models, based on your security and privacy requirements.
+
+- **Phase 3:** Invite select early adopters and trust and safety colleagues to explore and evaluate based on their workflows. Observe behavior and record user feedback, and identify issues. Iterate on workflows and usage policies. Consider issues such as data leakage, legal / copyright, privacy, response correctness and appropriateness.
+
+- **Phase 4:** Set and implement policies as availability is incrementally rolled out.
+
+## What does OpenOps include? 
+
+Deploying the OpenOps sandbox includes the following componenents: 
+- 🏰 **Mattermost Server** - Open source, self-hosted alternative to Discord and Slack for strict security environments with playbooks/workflow automation, tools integration, real time 1-1 and group messaging, audio calling and screenshare.  
+- 📙 **PostgreSQL** - Database for storing private data from multi-user, chat collaboration discussions and audit history.    
+- 🤖 **Mattermost AI plugin** - Extension of Mattermost platform for AI bot and generative AI integration. 
+- 🦙 **Open Source, Self-Hosted LLM models** - Models for evaluation and use case development via Hugging Face, including GPT4All (runs on a laptop in 4.2 GB) and Falcon LLM (example of leading scaled self-hosted models). 
+- 🧠  **(Optional) Closed Source, Vendor-Hosted AI models** - SaaS-based GenAI models from Azure AI, OpenAI & Anthropic.  
+- 📱 **(Optional) Mattermost Mobile and Desktop Apps** - End user apps for future production deployment. 
+
+## How do I start? 
+
+- 💻 Local Install - [Follow instructions for local installation](https://github.com/mattermost/mattermost-plugin-ai#local). 
+- ☁️ Cloud Evaluation Environment - [Follow instructions to run in cloud evaluation environment](https://github.com/mattermost/mattermost-plugin-ai#gitpod) using [GitPod](https://www.gitpod.io/)
+
+## Troubleshooting 
+
+OpenOps 
+- OpenOps Troubleshooting Forum - TBA
+- OpenOps General Discussion Forum- TBA
+
+Mattermost Server
+- Mattermost Troubleshooting Forum - https://forum.mattermost.com/c/trouble-shoot/16
+- Mattermost Peer-to-Peer Help Mattermost Channel - https://community.mattermost.com/core/channels/peer-to-peer-help 
+- Mattermost AI Discussion Mattermost Channel - https://community.mattermost.com/core/channels/ai-exchange
+
+// TODO - Add something for troubleshooting models, and learning about models 
+
+## Usage
+
+There are a broad range of ways generative AI is integrated to confidential, self-hosted workplace discussions: 
+
+| Visual Example | Usage Description |
+|:---|:---|
+| [![Streaming Conversation](https://github.com/it33/sandbox/assets/177788/2f61d5ad-8846-4b67-85ff-3da845cad8ca)](https://user-images.githubusercontent.com/3191642/239080908-f375f1a2-61bf-4ae1-839b-07e44461809b.mp4) | **Streaming Conversation** - The OpenOps platform reproduces streamed replies from popular GenAI chatbots creating a sense of responsiveness and conversational engagement, while masking actual wait times. |
+| ![Summarizing Thread](https://github.com/it33/sandbox/assets/177788/64b191b8-d12a-4319-937d-8cfe20531372) | **Discussion Summarization:** Use the "Summarize Thread" menu option or the `/summarize` command to get a summary of the thread in a Direct Message from an AI bot. <br><br>AI-generated summaries can be created from private, chat-based discussions to speed information flows and decision-making while reducing the time and cost required for organizations to stay up-to-date.  |
+| [![image](https://github.com/it33/sandbox/assets/177788/6190288e-e624-44f1-aa0f-97d4dc09854c)](https://user-images.githubusercontent.com/3191642/239080952-6fed05e2-ee68-40db-9ee4-870c61ccf5dd.mp4)| **Contextual Interrogation** - Users can ask follow-up questions to discussion summaries generated by AI bots to learn more about the underlying information without reviewing the raw input. | 
+| ![image](https://github.com/it33/sandbox/assets/177788/ddbae9e5-82ef-4ea4-b776-5013f1811047) | **Engage AI Bots like Human Users** - End users can interact with the AI bot in any discussion thread by mentioning AI bot with an `@` prefix, as they would get the attention of a human user. The bot will receive the thread information as context for replying.<br><br> Note: AI bot must be added to the Team before it can be mentioned. | 
+| [![React for me video](https://github.com/it33/sandbox/assets/177788/5a035c06-82ce-49c8-a648-efff10241d3a)](https://github.com/mattermost/mattermost-plugin-ai/assets/3191642/5282b066-86b5-478d-ae10-57c3cb3ba038) | **Sentiment Analysis:** Use the "React for me" menu option to have the AI bot analyze the sentiment of messages use its conclusion to deliver an emoji reaction on the user’s behalf. | 
+| ![image](https://github.com/it33/sandbox/assets/177788/0ebfa162-6ba8-450c-a092-f43d2b46e397) | **Reinforcement Learning from Human Feedback** - Bot posts are distinguished from human posts by having 👍 👎 icons available for human end users to signal whether the AI response was positive or problematic. The history of responses can be used in future to fine-tune the underlying AI models, as well as to potentially evaluate the responses of new models based on their correlation to positive and negative user ratings for past model responses. | 
+
+
+
+## FAQ
+
+#### Why is this framework called "OpenOps" and not "Mattermost AI"?
+
+Mattermost is a platform for collaboration and workflow in strict security environments, largely serving defense, government and technology enterprises. While it can apply AI to improving operational workflows, Mattermost is an operational platform, not an AI platform. 
+
+"OpenOps", short for "Open Operations", is intended as a descriptor for the transparency, control and portability Mattermost provides, which can be integrated with AI platforms to produce outcomes that outperform "Closed Operations" and vendor-controlled architectures on multiple fronts, including verifiability, sovereignty, and resiliency. 
+
+#### What visual can I use to illustrate the difference between the OpenOps operational platform versus AI platforms? 
+
+Here's a start (with all logos and trademarks belonging to their respective owners): 
+
+![image](https://github.com/it33/sandbox/assets/177788/52edf4ed-0c69-467b-aa30-1a820450a7a6)
+
+
 
 # Install OpenOps: Mattermost + [mattermost-plugin-ai](https://github.com/mattermost/mattermost-plugin-ai)
 
