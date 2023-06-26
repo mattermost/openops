@@ -11,7 +11,7 @@ Unliked closed source, vendor-controlled environments for integration private co
 
 | Demo | Use Case Example |
 |:---|:---|
-| ![Video](https://github.com/mattermost/mattermost-plugin-ai/blob/update-readme-demos/img/summarize_button.gif) | **Discussion Summarization** - Within the OpenOps sandbox a private discussion can be analyzed and summarized by an AI bot and backend to help end users more quickly and easily consume information without any data leaving the self-contained system.<br><br>See [usages section](#usage) for more examples below. |
+| [![Video](https://github.com/mattermost/mattermost-plugin-ai/blob/update-readme-demos/img/summarize_button.gif)](https://github.com/mattermost/mattermost-plugin-ai/blob/update-readme-demos/img/summarize_button.gif) | **Discussion Summarization** - Within the OpenOps sandbox a private discussion can be analyzed and summarized by an AI bot and backend to help end users more quickly and easily consume information without any data leaving the self-contained system.<br><br>See [usages section](#usage) for more examples below. |
 
 ## Why OpenOps?
 
