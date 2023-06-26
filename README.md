@@ -37,8 +37,8 @@ Deploying the OpenOps sandbox includes the following componenents:
 
 ## How do I start? 
 
-- 💻 Local Install - [Follow instructions for local installation](https://github.com/crspeller/openops#local). 
-- ☁️ Cloud Evaluation Environment - [Follow instructions to run in cloud evaluation environment](https://github.com/crspeller/openops#gipod-setup-with-openai) using [GitPod](https://www.gitpod.io/)
+- 💻 Local Install - [Follow instructions for local installation](#local). 
+- ☁️ Cloud Evaluation Environment - [Follow instructions to run in cloud evaluation environment](#gipod-setup-with-openai) using [GitPod](https://www.gitpod.io/)
 
 ## Troubleshooting 
 
