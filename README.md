@@ -43,8 +43,9 @@ Deploying the OpenOps sandbox includes the following componenents:
 ## Troubleshooting 
 
 OpenOps 
-- OpenOps Troubleshooting Forum - TBA
-- OpenOps General Discussion Forum- TBA
+- OpenOps Troubleshooting Forum - https://forum.mattermost.com/t/openops-ai-troubleshooting/15942
+- OpenOps General Discussion Forum - https://forum.mattermost.com/c/openops-ai/40
+- OpenOps FAQs - https://forum.mattermost.com/t/openops-ai-faqs/16287
 
 Mattermost Server
 - Mattermost Troubleshooting Forum - https://forum.mattermost.com/c/trouble-shoot/16
