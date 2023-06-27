@@ -30,7 +30,7 @@ Everyone’s in a race to deploy generative AI solutions, but need to do so in a
 Deploying the OpenOps sandbox includes the following componenents: 
 - 🏰 **Mattermost Server** - Open source, self-hosted alternative to Discord and Slack for strict security environments with playbooks/workflow automation, tools integration, real time 1-1 and group messaging, audio calling and screenshare.  
 - 📙 **PostgreSQL** - Database for storing private data from multi-user, chat collaboration discussions and audit history.    
-- 🤖 **Mattermost AI plugin** - Extension of Mattermost platform for AI bot and generative AI integration. 
+- 🤖 [**Mattermost AI plugin**](https://github.com/mattermost/mattermost-plugin-ai) - Extension of Mattermost platform for AI bot and generative AI integration. 
 - 🦙 **Open Source, Self-Hosted LLM models** - Models for evaluation and use case development from Hugging Face and other sources, including GPT4All (runs on a laptop in 4.2 GB) and Falcon LLM (example of leading scaled self-hosted models). Uses [LocalAI](https://github.com/go-skynet/LocalAI).
 - 🧠  **(Optional) Closed Source, Vendor-Hosted AI models** - SaaS-based GenAI models from Azure AI, OpenAI & Anthropic.  
 - 📱 **(Optional) Mattermost Mobile and Desktop Apps** - End user apps for future production deployment. 
