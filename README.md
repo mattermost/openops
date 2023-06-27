@@ -42,8 +42,6 @@ Deploying the OpenOps sandbox includes the following componenents:
 
 ## Troubleshooting 
 
-Join us on the OpenOps Discord server (https://discord.gg/VqzB4bz6) or one of the following forums:
-
 OpenOps 
 - OpenOps Troubleshooting Forum - https://forum.mattermost.com/t/openops-ai-troubleshooting/15942
 - OpenOps General Discussion Forum - https://forum.mattermost.com/c/openops-ai/40
@@ -53,6 +51,8 @@ Mattermost Server
 - Mattermost Troubleshooting Forum - https://forum.mattermost.com/c/trouble-shoot/16
 - Mattermost Peer-to-Peer Help Mattermost Channel - https://community.mattermost.com/core/channels/peer-to-peer-help 
 - Mattermost AI Discussion Mattermost Channel - https://community.mattermost.com/core/channels/ai-exchange
+
+You can also join us on the OpenOps Discord server - https://discord.gg/VqzB4bz6 .
 
 // TODO - Add something for troubleshooting models, and learning about models 
 
