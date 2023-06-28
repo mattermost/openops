@@ -1,7 +1,6 @@
 # OpenOps
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops)
-
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops) 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 ![OpenOps](https://github.com/mattermost/mattermost-plugin-ai/assets/7295363/3f44a7ea-2db6-4834-9bc8-b3573d19a171)
@@ -14,6 +13,8 @@ OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate 
 
 Unliked closed source, vendor-controlled environments for integration private conversations, workflow and generative AI, OpenOps provides an open source, customer-controlled platform for AI exploration with full data data control.
 
+<a href="https://www.producthunt.com/posts/openops-from-mattermost?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-openops&#0045;from&#0045;mattermost" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=401871&theme=light" alt="OpenOps&#0032;from&#0032;Mattermost - Open&#0032;source&#0044;&#0032;AI&#0045;enhanced&#0032;chat&#0032;collaboration&#0032;sandbox | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> 
+
 ## Table of Contents
 - [OpenOps](#openops)
   - [Table of Contents](#table-of-contents)
@@ -24,7 +25,7 @@ Unliked closed source, vendor-controlled environments for integration private co
     - [Local](#local)
     - [Gitpod](#gitpod)
   - [Usage](#usage)
-  - [Related Efforts](#related-efforts)
+  - [Community Resources](#community-resources)
     - [OpenOps \& AI](#openops--ai)
     - [Mattermost](#mattermost)
   - [Contributing](#contributing)
@@ -96,18 +97,18 @@ There many ways to integrate generative AI into confidential, self-hosted workpl
 | **Sentiment Analysis**                         | [![React for me](https://github.com/mattermost/openops/assets/3191642/56bf132a-b834-46a3-882c-9b1f38a9f9fc)](https://github.com/mattermost/mattermost-plugin-ai/assets/3191642/5282b066-86b5-478d-ae10-57c3cb3ba038) | Use the "React for me" menu option to have the AI bot analyze the sentiment of messages use its conclusion to deliver an emoji reaction on the user’s behalf.                                                                                                                                                                                                                                                 |
 | **Reinforcement Learning from Human Feedback** | ![RLHF](https://github.com/mattermost/openops/assets/3191642/ec330f7e-2aba-4370-bf21-e585a793160e)                                                                                                                   | Bot posts are distinguished from human posts by having 👍 👎 icons available for human end users to signal whether the AI response was positive or problematic. The history of responses can be used in future to fine-tune the underlying AI models, as well as to potentially evaluate the responses of new models based on their correlation to positive and negative user ratings for past model responses. |
 
-## Related Efforts
+## Community Resources 
 
 ### OpenOps & AI
-- [Discourse forum](https://forum.mattermost.com/c/openops-ai/40)
-- [Discord server](https://discord.gg/VqzB4bz6)
-- ["AI Exchange" channel](https://community.mattermost.com/core/channels/ai-exchange)
-- [Troubleshooting thread](https://forum.mattermost.com/t/openops-ai-troubleshooting/15942/)
-- [FAQs thread](https://forum.mattermost.com/t/openops-ai-faqs/16287)
+- [OpenOps General Discussion on Mattermost Forum](https://forum.mattermost.com/c/openops-ai/40) 
+- [OpenOps Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-troubleshooting/15942/)
+- [OpenOps Q&A on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-faqs/16287)
+- [OpenOps "AI Exchange" channel on Mattermost Community server](https://community.mattermost.com/core/channels/ai-exchange) (for Mattermost community interested in AI)
+- [OpenOps Discord Server](https://discord.gg/VqzB4bz6) (for AI community interested in Mattermost) 
 
 ### Mattermost
-- [Troubleshooting forum](https://forum.mattermost.com/c/trouble-shoot/16)
-- ["Peer-to-peer Help" channel](https://community.mattermost.com/core/channels/peer-to-peer-help)
+- [Mattermost Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/c/trouble-shoot/16)
+- [Mattermost "Peer-to-peer Help" channel on Mattermost Community server](https://community.mattermost.com/core/channels/peer-to-peer-help)
 
 ## Contributing
 
