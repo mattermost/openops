@@ -1,6 +1,6 @@
 # Code Contribution Guidelines
 
-Thank you for your interest in contributing! We’re glad ❤️ you’re here!
+Thank you for your interest in contributing! We’re glad you’re here! ❤️
 
 Please read the guidelines below to learn the process for making code contributions.
 
@@ -15,7 +15,7 @@ Please read the guidelines below to learn the process for making code contributi
 
 4. Submit your pull request for a [code review](https://developers.mattermost.com/contribute/more-info/getting-started/code-review/#if-you-are-a-community-member-seeking-a-review) and [wait](https://developers.mattermost.com/contribute/more-info/getting-started/code-review/#if-you-are-awaiting-a-review) for a core committer to review it. If you get stuck, please message Christopher Speller (@crspeller on GitHub) or Jason Blais (@jasonblais on your GitHub PR).
 
-Good luck and have fun! ❤️
+Good luck and have fun! ❤️ We also recommend reading Mattermost's [contributor guide](https://developers.mattermost.com/contribute/) to learn more about our community!
 
 ## Bug Reports
 
