@@ -3,8 +3,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops) 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-![OpenOps](https://github.com/mattermost/mattermost-plugin-ai/assets/7295363/3f44a7ea-2db6-4834-9bc8-b3573d19a171)
-
 OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate responsible evaluation of generative AI models applied to real world workflows. OpenOps:
 
 * Enables AI exploration with full data control in a multi-user pilot.
@@ -12,8 +10,6 @@ OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate 
 * Speeds development of custom security, compliance and data custody policy from early evaluation to future scale.
 
 Unliked closed source, vendor-controlled environments for integration private conversations, workflow and generative AI, OpenOps provides an open source, customer-controlled platform for AI exploration with full data data control.
-
-<a href="https://www.producthunt.com/posts/openops-from-mattermost?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-openops&#0045;from&#0045;mattermost" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=401871&theme=light" alt="OpenOps&#0032;from&#0032;Mattermost - Open&#0032;source&#0044;&#0032;AI&#0045;enhanced&#0032;chat&#0032;collaboration&#0032;sandbox | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> 
 
 ## Table of Contents
 - [OpenOps](#openops)
