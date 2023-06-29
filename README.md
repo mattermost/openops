@@ -11,6 +11,8 @@ OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate 
 
 Unliked closed source, vendor-controlled environments for integration private conversations, workflow and generative AI, OpenOps provides an open source, customer-controlled platform for AI exploration with full data data control.
 
+Like what you see? Please give us a star! ⭐️
+
 ![image](https://github.com/mattermost/openops/assets/177788/2a7f64af-d675-468a-b78f-f13591fd8cbd)
 
 
