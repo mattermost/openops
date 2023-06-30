@@ -3,13 +3,17 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops) 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-OpenOps is an open source, AI-enhanced chat collaboration platform to accelerate responsible evaluation of generative AI models applied to real world workflows. OpenOps:
+OpenOps is an open source platform for applying generative AI to workflows in secure environments. 
+
+![Demo](https://raw.githubusercontent.com/mattermost/mattermost-plugin-ai/master/img/summarize_thread.gif)
+
+OpenOps:
 
 * Enables AI exploration with full data control in a multi-user pilot.
 * Supports broad ecosystem of AI models from OpenAI and Microsoft to open source LLMs from Hugging Face.
 * Speeds development of custom security, compliance and data custody policy from early evaluation to future scale.
 
-Unliked closed source, vendor-controlled environments for integration private conversations, workflow and generative AI, OpenOps provides an open source, customer-controlled platform for AI exploration with full data data control.
+Unliked closed source, vendor-controlled environments where data controls cannot be audited, OpenOps provides a transparent, open source, customer-controlled platform for developing, securing and auditing AI-accelerated workflows. 
 
 Like what you see? Please give us a star! ⭐️
 
