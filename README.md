@@ -3,7 +3,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops) 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-OpenOps is an open source, AI-enhanced chat collaboration sandbox to accelerate responsible evaluation of generative AI models applied to real world workflows. OpenOps:
+OpenOps is an open source, AI-enhanced chat collaboration platform to accelerate responsible evaluation of generative AI models applied to real world workflows. OpenOps:
 
 * Enables AI exploration with full data control in a multi-user pilot.
 * Supports broad ecosystem of AI models from OpenAI and Microsoft to open source LLMs from Hugging Face.
