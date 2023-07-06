@@ -109,7 +109,7 @@ There many ways to integrate generative AI into confidential, self-hosted workpl
 - [OpenOps Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-troubleshooting/15942/)
 - [OpenOps Q&A on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-faqs/16287)
 - [OpenOps "AI Exchange" channel on Mattermost Community server](https://community.mattermost.com/core/channels/ai-exchange) (for Mattermost community interested in AI)
-- [OpenOps Discord Server](https://discord.gg/VqzB4bz6) (for AI community interested in Mattermost) 
+- [OpenOps Discord Server](https://discord.gg/kAC8WakMAx) (for AI community interested in Mattermost) 
 
 ### Mattermost
 - [Mattermost Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/c/trouble-shoot/16)
