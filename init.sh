@@ -10,10 +10,10 @@ user_name="root"
 user_password="$(openssl rand -base64 14)"
 
 if [ "$backend" == 'localai' ]; then
-	echo "Starting Mattermost and localai for demo..."
+	echo "Starting Mattermost and LocalAI for demo..."
 	docker-compose -f docker-compose.yml -f docker-compose.local.yml up -d 
 else
-	echo "Starting Mattermost and openai for demo..."
+	echo "Starting Mattermost with OpenAI for demo..."
 	docker-compose -f docker-compose.yml up -d 
 fi
 

@@ -71,7 +71,7 @@ Deploying the OpenOps sandbox includes the following componenents:
     - **If using OpenAI:**
       - Run `env backend=openai ./init.sh`
       - Run `./configure_openai.sh sk-<your openai key>` to add your API credentials *or* use the Mattermost system console to configure the plugin
-    - **If using local AI:**
+    - **If using LocalAI:**
       - Run `env backend=localai ./init.sh`
       - Run `env backend=localai ./download_model.sh` to download one *or* supply your own ggml formatted model in the `models` directory.
 3. Access Mattermost and log in with the credentials provided in the terminal.
