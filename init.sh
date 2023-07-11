@@ -18,7 +18,7 @@ else
 fi
 
 echo "Mattermost is starting. Waiting 35 seconds."
-#sleep 35
+sleep 35
 
 echo -e "Setting up Mattermost with ...\n Team name: $team_name\n Team display name: $team_display_name\n Channel name: $channel_name\n Channel display name: $channel_display_name"
 
