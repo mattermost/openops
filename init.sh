@@ -9,11 +9,11 @@ channel_display_name="AI"
 user_name="root"
 user_password="$(openssl rand -base64 14)"
 
-echo "Starting Mattermost and localai for demo..."
-
 if [ "$backend" == 'localai' ]; then
+	echo "Starting Mattermost and LocalAI for demo..."
 	docker-compose -f docker-compose.yml -f docker-compose.local.yml up -d 
 else
+	echo "Starting Mattermost with OpenAI for demo..."
 	docker-compose -f docker-compose.yml up -d 
 fi
 
@@ -48,7 +48,12 @@ if [ "$backend" == 'openai' ]; then
 	cat config_patch_openai.json | docker exec -i mattermost bash -c 'mmctl --local config patch /dev/stdin'
 fi
 
-echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)/$team_name/messages/@ai\n\n        username:  $user_name\n        password:  $user_password\n\n"
+
+if [$(command -v gp)]; then
+    echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT $(gp url 8065)/$team_name/messages/@ai\n\n        username:  $user_name\n        password:  $user_password\n\n"
+else
+    echo -e "\n===========================\n\n  THEN LOG IN TO MATTERMOST AT http://localhost:8065/$team_name/messages/@ai\n\n        username:  $user_name\n        password:  $user_password\n\n"
+fi
 
 if [ "$backend" == 'openai' ]; then
 	echo -e "\n   NOW RUN ./configure_openai.sh sk-<your openai key> OR CONFIGURE THE PLUGIN THOUGH THE SYSTEM CONSOLE.\n\n"

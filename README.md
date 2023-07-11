@@ -54,7 +54,7 @@ Everyone is in a race to deploy generative AI solutions, but need to do so in a 
 
 ### What does OpenOps include?
 
-Deploying the OpenOps sandbox includes the following componenents: 
+Deploying the OpenOps sandbox includes the following components: 
 - 🏰 **Mattermost Server** - Open source, self-hosted alternative to Discord and Slack for strict security environments with playbooks/workflow automation, tools integration, real time 1-1 and group messaging, audio calling and screenshare.  
 - 📙 **PostgreSQL** - Database for storing private data from multi-user, chat collaboration discussions and audit history.    
 - 🤖 [**Mattermost AI plugin**](https://github.com/mattermost/mattermost-plugin-ai) - Extension of Mattermost platform for AI bot and generative AI integration. 
