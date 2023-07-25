@@ -2,7 +2,7 @@
 
 > OpenOps is an open source platform for applying generative AI to workflows in secure environments. 
 
-[![Getting started with OpenOps tutorial video](./../openops/getting-started-thumbnail.png)](https://www.youtube.com/watch?v=20KSKBzZmik "Getting started with OpenOps tutorial video")
+[![Getting started with OpenOps tutorial video](./getting-started-thumbnail.png)](https://www.youtube.com/watch?v=20KSKBzZmik "Getting started with OpenOps tutorial video")
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#backend=openai/https://github.com/mattermost/openops) 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
