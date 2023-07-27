@@ -66,7 +66,9 @@ Deploying the OpenOps sandbox includes the following components:
 
 ### Local
 
-*Rather watch a video? 📽️ Check out our YouTube tutorial video for getting started with OpenOps: https://www.youtube.com/watch?v=20KSKBzZmik*
+***Rather watch a video?** 📽️ Check out our YouTube tutorial video for getting started with OpenOps: https://www.youtube.com/watch?v=20KSKBzZmik*
+
+***Rather read a blog post?** 📝 Check out our Mattermost blog post for getting started with OpenOps: https://mattermost.com/blog/open-source-ai-framework/*
 
 1. Clone the repository: `git clone https://github.com/mattermost/openops && cd openops`
 2. Start docker services and configure plugin
