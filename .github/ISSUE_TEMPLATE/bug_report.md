@@ -1,35 +1,23 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: 'Bug: '
-labels: Bug, Triage
+name: Bug Report
+about: Please search for similar issues before reporting a bug.
+title: '🐛 bug: '
+labels: 'bug'
 assignees: ''
-
 ---
 
-## Steps to reproduce the behavior
+## Description
 
-1. Go to ...
-2. Select  ...
-3. Scroll down to ...
-4. See error
+<!-- Provide a clear and concise description of the bug. If necessary, add screenshots and/or logs. -->
+
+## Steps to reproduce
+
+<!-- Explain how to reproduce the bug. Include any relevant details about your environment. -->
 
 ## Expected behavior
 
-A clear and concise description of what you expected to happen.
+<!-- Provide a clear and concise description of what you expected to happen. -->
 
-## Screenshots (optional)
+## Additional context
 
-If applicable, add screenshots or a screen recording to elaborate on the problem.
-
-## Version and Platform
-
- - Version: [e.g. v0.15.0]
- - Browser and OS: [e.g. Chrome on Mac, Edge on Windows]
-
-## Additional context (optional)
-
-Add any other context about the problem here, and any notes about the severity:
-* Sev 1: Affects critical functionality without a workaround
-* Sev 2: Affects major functionality with a difficult or non-obvious workaround
-* Sev 3: Affects minor, non-critical functionality
+<!-- Add any other context about the bug. Be sure to link to any relevant discussions or resources. -->
