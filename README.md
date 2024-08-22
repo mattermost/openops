@@ -1,4 +1,8 @@
-# OpenOps
+---
+# OpenOps is not an actively supported project and this repository remains for historical purposes. See the [Mattermost Copilot repository](https://openops.mattermost.com/) for the latest Mattermost AI capabilities.
+---
+
+# OpenOps (deprecated)
 
 > OpenOps is an open source platform for applying generative AI to workflows in secure environments. 
 
@@ -113,7 +117,6 @@ There many ways to integrate generative AI into confidential, self-hosted workpl
 - [OpenOps Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-troubleshooting/15942/)
 - [OpenOps Q&A on Mattermost Forum](https://forum.mattermost.com/t/openops-ai-faqs/16287)
 - [OpenOps "AI Exchange" channel on Mattermost Community server](https://community.mattermost.com/core/channels/ai-exchange) (for Mattermost community interested in AI)
-- [OpenOps Discord Server](https://discord.gg/kAC8WakMAx) (for AI community interested in Mattermost) 
 
 ### Mattermost
 - [Mattermost Troubleshooting Discussion on Mattermost Forum](https://forum.mattermost.com/c/trouble-shoot/16)
