@@ -1,5 +1,5 @@
 ---
-# OpenOps is not an actively supported project and this repository remains for historical purposes. See the [Mattermost Copilot repository](https://openops.mattermost.com/) for the latest Mattermost AI capabilities.
+# OpenOps is not an actively supported project and this repository remains for historical purposes. See the [Mattermost Copilot repository](https://github.com/mattermost/mattermost-plugin-ai) for the latest Mattermost AI capabilities.
 ---
 
 # OpenOps (deprecated)
